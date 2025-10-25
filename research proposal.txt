@@ -1,1 +1,12 @@
+Software Defect Prediction Using Machine Learning:
+A Comprehensive Empirical Study with Statistical Validation
+________________________________________
+ABSTRACT
+Background: Software defects pose significant challenges to software quality assurance, leading to increased maintenance costs, system failures, and diminished user satisfaction. Early identification of defect-prone modules enables efficient allocation of testing resources and proactive quality improvement.
+Objective: This study presents a comprehensive empirical investigation comparing ten machine learning algorithms coupled with two distinct preprocessing strategies for software defect prediction. We evaluate the efficacy of Winsorization and Robust Scaling techniques in handling outliers inherent in software metrics data.
+Method: We employ 10-fold stratified cross-validation across multiple open-source software datasets. Our experimental framework incorporates Recursive Feature Elimination (RFE) for dimensionality reduction, Synthetic Minority Over-sampling Technique (SMOTE) for addressing class imbalance, and rigorous statistical testing using both parametric (paired t-test) and non-parametric (Wilcoxon signed-rank) methods to validate our findings.
+Results: [To be completed after experiments] Our analysis reveals significant performance variations across classifiers and preprocessing methods, with ensemble approaches demonstrating superior predictive capabilities.
+Conclusions: [To be completed] This study provides empirically validated guidelines for selecting appropriate machine learning algorithms and preprocessing strategies in software defect prediction contexts.
+Keywords: Software defect prediction, machine learning, ensemble methods, class imbalance, SMOTE, preprocessing techniques, empirical software engineering
+________________________________________
 
